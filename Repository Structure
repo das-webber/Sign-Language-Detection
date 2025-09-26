@@ -2,7 +2,7 @@ Sign-Language-Detection/
 ├── data/
 │   ├── raw/                # Place downloaded Kaggle ASL dataset here
 │   ├── processed/          # Auto-created by preprocessing script
-│  
+│   └── labels.csv          # Generated automatically
 ├── models/
 │   └── saved_model.h5      # Trained model will be saved here
 ├── src/
@@ -12,4 +12,3 @@ Sign-Language-Detection/
 ├── app.py                  # Tkinter GUI
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project description and instructions
-
