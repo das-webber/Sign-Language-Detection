@@ -1,0 +1,15 @@
+Sign-Language-Detection/
+├── data/
+│   ├── raw/                # Place downloaded Kaggle ASL dataset here
+│   ├── processed/          # Auto-created by preprocessing script
+│   └── labels.csv          # Generated automatically
+├── models/
+│   └── saved_model.h5      # Trained model will be saved here
+├── src/
+│   ├── train.py            # Training script
+│   ├── preprocess.py       # Preprocessing script
+│   └── utils.py            # Helper functions
+├── app.py                  # Tkinter GUI
+├── requirements.txt        # Python dependencies
+├── README.md               # Project description and instructions
+└── .gitignore              # Ignore models, __pycache__, etc.
