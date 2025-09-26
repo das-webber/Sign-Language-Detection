@@ -12,4 +12,4 @@ Sign-Language-Detection/
 ├── app.py                  # Tkinter GUI
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project description and instructions
-└── .gitignore              # Ignore models, __pycache__, etc.
+
